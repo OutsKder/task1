@@ -9,9 +9,9 @@ const linkData=[
   {name:"Scale",href:"/scale"},
 ];
 
-const accessLink=[
-  "/","/performance","/reliability","/scale"
-]
+// const accessLink=[
+//   "/","/performance","/reliability","/scale"
+// ]
 export default function Header() {
   const pathname=usePathname()
 
